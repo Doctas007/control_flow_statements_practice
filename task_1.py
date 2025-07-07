@@ -8,8 +8,11 @@ def task_1(x):
     return:
         int
     """
-    return x
-
+    if x>0:
+        return x+1
+    else:
+        return x-2
+    print(task_1(2))
 # Example:
 # task_1(1) -> 1
 # task_1(-4) -> -2  
